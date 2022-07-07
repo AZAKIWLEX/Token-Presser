@@ -137,7 +137,7 @@ def nig(datos, token):
 
 
 if __name__ == '__main__':
-    os.system('title TOKEN PRESSER V BETA' if os.name == 'nt' else '')
+    os.system('title TOKEN PRESSER V 1' if os.name == 'nt' else '')
     os.system('cls' if os.name == 'nt' else 'clear')
     signal.signal(signal.SIGINT, exit_handler)
     token = input(Fore.YELLOW + 'Insert token: ' + Fore.RESET)
